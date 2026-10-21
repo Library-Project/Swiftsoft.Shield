@@ -1,0 +1,14 @@
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\bin\Debug\net6.0\Swiftsoft.Shield.deps.json
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\bin\Debug\net6.0\Swiftsoft.Shield.dll
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\bin\Debug\net6.0\Swiftsoft.Shield.pdb
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\Swiftsoft.Shield.csproj.AssemblyReference.cache
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\Swiftsoft.Shield.GeneratedMSBuildEditorConfig.editorconfig
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\Swiftsoft.Shield.AssemblyInfoInputs.cache
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\Swiftsoft.Shield.AssemblyInfo.cs
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\Swiftsoft.Shield.csproj.CoreCompileInputs.cache
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\Swiftsoft.Shield.sourcelink.json
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\Swiftsoft.Shield.dll
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\refint\Swiftsoft.Shield.dll
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\Swiftsoft.Shield.pdb
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\ref\Swiftsoft.Shield.dll
+C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\Swiftsof.2ED200F3.Up2Date
