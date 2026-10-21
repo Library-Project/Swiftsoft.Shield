@@ -11,4 +11,3 @@ C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shiel
 C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\refint\Swiftsoft.Shield.dll
 C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\Swiftsoft.Shield.pdb
 C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\ref\Swiftsoft.Shield.dll
-C:\Jospin\Jospin_Projects\Library\SwiftSoft\Swiftsoft.Shield\Src\Swiftsoft.Shield\obj\Debug\net6.0\Swiftsof.2ED200F3.Up2Date

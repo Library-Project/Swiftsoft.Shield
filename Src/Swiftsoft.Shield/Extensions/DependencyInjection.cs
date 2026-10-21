@@ -2,7 +2,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swiftsoft.Shield.Models;
 using Swiftsoft.Shield.Services.SecurePayload;
-using Swiftsoft.Shield.Services.SecurePayload.Utilities;
+using Swiftsoft.Shield.Services.SecurePayload.Helpers;
 
 namespace Swiftsoft.Shield.Extensions;
 

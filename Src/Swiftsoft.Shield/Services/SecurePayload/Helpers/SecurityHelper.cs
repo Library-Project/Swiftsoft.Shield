@@ -1,6 +1,6 @@
 using System.Security.Cryptography;
 
-namespace Swiftsoft.Shield.Services.SecurePayload.Utilities;
+namespace Swiftsoft.Shield.Services.SecurePayload.Helpers;
 
 public static class SecurityHelper
 {

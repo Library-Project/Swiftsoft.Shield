@@ -4,7 +4,21 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>Swiftsoft (Jospin Chimi)</Authors>
+    <Copyright>Swiftsoft all rights reserved</Copyright>
+    <Description>Encrypts and signs the data exchanged by an ASP.NET Core API, so that it stays unreadable and tamper-proof, even in logs, proxies or debugging tools.</Description>
+    <TargetFrameworks>net6.0;net10.0;net7.0;net8.0;net9.0;.net10.0</TargetFrameworks>
+    <PackageProjectUrl>https://github.com/Library-Project/Swiftsoft.Shield</PackageProjectUrl>
+    <PackageTags>shield;encryption;aes;hmac;security;payload;cryptography</PackageTags>
+    <RepositoryUrl>https://github.com/Library-Project/Swiftsoft.Shield</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>s.png</PackageIcon>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />

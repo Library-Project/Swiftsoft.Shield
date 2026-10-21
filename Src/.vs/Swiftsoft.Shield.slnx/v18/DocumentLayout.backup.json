@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Jospin\\Jospin_Projects\\Library\\SwiftSoft\\Swiftsoft.Shield\\Src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DC6F8C7-8F18-DD23-696A-3BD75F5562CF}|Swiftsoft.Shield\\Swiftsoft.Shield.csproj|c:\\jospin\\jospin_projects\\library\\swiftsoft\\swiftsoft.shield\\src\\swiftsoft.shield\\swiftsoft.shield.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5DC6F8C7-8F18-DD23-696A-3BD75F5562CF}|Swiftsoft.Shield\\Swiftsoft.Shield.csproj|solutionrelative:swiftsoft.shield\\swiftsoft.shield.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DC6F8C7-8F18-DD23-696A-3BD75F5562CF}|Swiftsoft.Shield\\Swiftsoft.Shield.csproj|c:\\jospin\\jospin_projects\\library\\swiftsoft\\swiftsoft.shield\\src\\swiftsoft.shield\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DC6F8C7-8F18-DD23-696A-3BD75F5562CF}|Swiftsoft.Shield\\Swiftsoft.Shield.csproj|solutionrelative:swiftsoft.shield\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,7 +18,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Jospin\\Jospin_Projects\\Library\\SwiftSoft\\Swiftsoft.Shield\\Src\\Swiftsoft.Shield\\Extensions\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Swiftsoft.Shield\\Extensions\\DependencyInjection.cs",
@@ -32,29 +28,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T01:56:44.005Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Swiftsoft.Shield",
-              "DocumentMoniker": "C:\\Jospin\\Jospin_Projects\\Library\\SwiftSoft\\Swiftsoft.Shield\\Src\\Swiftsoft.Shield\\Swiftsoft.Shield.csproj",
-              "RelativeDocumentMoniker": "Swiftsoft.Shield\\Swiftsoft.Shield.csproj",
-              "ToolTip": "C:\\Jospin\\Jospin_Projects\\Library\\SwiftSoft\\Swiftsoft.Shield\\Src\\Swiftsoft.Shield\\Swiftsoft.Shield.csproj",
-              "RelativeToolTip": "Swiftsoft.Shield\\Swiftsoft.Shield.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-21T01:59:57.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
             }
           ]
         }
