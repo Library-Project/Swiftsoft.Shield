@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute(("Encrypts and signs the data exchanged by an ASP.NET Core API, so that it stays un" +
     "readable and tamper-proof, even in logs, proxies or debugging tools."))]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a84cf434eaac5134752ef6039f0cbcb1f1337b5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c7b212849e4c2746d872690fb2b82f28797d4e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Swiftsoft.Shield")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Swiftsoft.Shield")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
