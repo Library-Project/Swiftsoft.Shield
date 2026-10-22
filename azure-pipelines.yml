@@ -1,0 +1,75 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+# Pipeline Azure DevOps pour une bibliothèque hébergée sur GitHub.
+#  - Pull Request vers main     : Build + Test
+#  - Fusion dans main           : Build + Test + Pack (artefact de prévisualisation)
+#  - Tag v1.2.0                 : Build + Test + Pack + Publication sur NuGet.org
+ 
+trigger:
+  branches:
+    include: [ main ]
+
+pr:
+  branches:
+    include: [ main ]
+
+pool:
+  vmImage: ubuntu-latest
+
+name: 1.0.$(Rev:r)
+
+stages:
+- stage: Build_Stage
+  displayName: Build
+  jobs:
+  - job: BuildNuget
+    displayName: Build Nuget packages
+    variables:
+      BuildConfiguration: release
+    steps:
+    - task: DotNetCoreCLI@2
+      displayName: dotnet restore
+      inputs:
+        command: 'restore'
+        projects: '**/*.csproj'
+        feedsToUse: 'select'
+
+    - task: DotNetCoreCLI@2
+      displayName: dotnet build
+      inputs:
+        command: 'build'
+        projects: '**/*.csproj'
+        arguments: '--configuration $(BuildConfiguration)'
+        
+    - task: DotNetCoreCLI@2
+      displayName: dotnet test
+      inputs:
+        command: 'test'
+        projects: '**/*.Test.csproj'
+
+  - job: CreateNugetPackage
+    displayName: Create Nuget Package
+    dependsOn: BuildNuget
+    condition: succeeded()
+    steps:
+    - task: DotNetCoreCLI@2
+      displayName: dotnet pack
+      inputs:
+        command: 'pack'
+        packagesToPack: '**/*.csproj'
+        versioningScheme: 'byBuildNumber'
+        
+    - task: CmdLine@2
+      displayName: cmd publish
+      inputs:
+        script: 'dotnet nuget push $(Build.ArtifactStagingDirectory)/*.nupkg --api-key $(nugetKey) --source https://api.nuget.org/v3/index.json'
+        
+    - task: PublishBuildArtifacts@1
+      displayName: publish artifact
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        TargetPath:  '\\Swiftsoft.Shield\$(Build.DefinitionName)\$(Build.BuildNumber)'
+        publishLocation: 'Container'
