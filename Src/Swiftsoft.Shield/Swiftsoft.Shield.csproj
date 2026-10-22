@@ -1,13 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net6.0;net7.0;net8.0;net9.0;.net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Authors>Swiftsoft (Jospin Chimi)</Authors>
     <Copyright>Swiftsoft all rights reserved</Copyright>
     <Description>Encrypts and signs the data exchanged by an ASP.NET Core API, so that it stays unreadable and tamper-proof, even in logs, proxies or debugging tools.</Description>
-    <TargetFrameworks>net6.0;net10.0;net7.0;net8.0;net9.0;.net10.0</TargetFrameworks>
     <PackageProjectUrl>https://github.com/Library-Project/Swiftsoft.Shield</PackageProjectUrl>
     <PackageTags>shield;encryption;aes;hmac;security;payload;cryptography</PackageTags>
     <RepositoryUrl>https://github.com/Library-Project/Swiftsoft.Shield</RepositoryUrl>
