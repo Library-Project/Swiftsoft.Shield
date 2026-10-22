@@ -13,19 +13,7 @@
     <SourceRoot Include="C:\Users\JOSPIN CHIMI\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
-  <ImportGroup Condition=" '$(TargetFramework)' == '.net10.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
-  </ImportGroup>
-  <ImportGroup Condition=" '$(TargetFramework)' == 'net6.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
-  </ImportGroup>
-  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
-  </ImportGroup>
-  <ImportGroup Condition=" '$(TargetFramework)' == 'net8.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
-  </ImportGroup>
-  <ImportGroup Condition=" '$(TargetFramework)' == 'net9.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
   </ImportGroup>
 </Project>
