@@ -1,0 +1,40 @@
+## ===============================
+## .NET / Visual Studio / Rider
+## ===============================
+
+# Build results
+bin/
+obj/
+
+# Rider
+.idea/
+*.sln.iml
+*.iml
+
+# Visual Studio
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Mono
+.mono/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Logs / Temp
+# ===============================
+
+*.log
+*.tmp
+*.temp
+*.cache
