@@ -8,15 +8,15 @@
     <Copyright>Swiftsoft all rights reserved</Copyright>
     <Description>Encrypts and signs the data exchanged by an ASP.NET Core API, so that it stays unreadable and tamper-proof, even in logs, proxies or debugging tools.</Description>
     <PackageProjectUrl>https://github.com/Library-Project/Swiftsoft.Shield</PackageProjectUrl>
-    <PackageTags>shield;encryption;aes;hmac;security;payload;cryptography</PackageTags>
+    <PackageTags>Swiftsoft;</PackageTags>
     <RepositoryUrl>https://github.com/Library-Project/Swiftsoft.Shield</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile>Lib_description.md</PackageReadmeFile>
     <PackageIcon>s.png</PackageIcon>
   </PropertyGroup>
   
   <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="Lib_description.md" Pack="true" PackagePath="\" />
     <None Include="s.png" Pack="true" PackagePath=""/>
   </ItemGroup>
 
